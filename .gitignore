@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.py[cod]
+
+
+.ipynb_checkpoints/
+
+# Ignore raw datasets by default
+data/raw/*
+
+# Allow small, approved sample datasets
+!data/raw/Fresh_Test.csv
+!data/raw/Hard_Examples.csv
+
